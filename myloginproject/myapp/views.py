@@ -44,6 +44,3 @@ def logout_view(request):
     messages.success(request, "You have been logged out.")
     return redirect('home')
 
-
-def home():
-    pass
